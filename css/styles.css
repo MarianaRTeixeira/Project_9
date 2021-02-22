@@ -39,7 +39,21 @@ nav {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-    ""
-    ""
-    "";
-      }
+    "header"
+    "main"
+    "footer";
+    
+}
+header{
+    grid-area: header;
+    background-color: antiquewhite;
+}
+main{
+    grid-area: main;
+    background-color: red;
+}
+
+footer {
+    grid-area: footer;
+    background-color: blue;
+}
