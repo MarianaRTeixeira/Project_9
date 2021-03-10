@@ -1,0 +1,52 @@
+/*---Base Styles---*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+
+/*---Grid---*/
+.gallery{
+    display: grid;
+    width: 85%;
+    max-width: 900px; /*  ( 200px*4+ 20px  gap * 4)*/
+    margin: 20px auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* Search bar Style */
+
+#myInput {
+    margin: 40px auto;
+    text-align: left;
+    width:55.556vw; 
+    max-width: 600px;
+    display: flex;
+    height: 50px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+#myInput:hover{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-size: 1.25em;
+    padding-left: 10px;
+
+}
+
