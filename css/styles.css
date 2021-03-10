@@ -197,6 +197,7 @@ main {
   justify-content: space-between;
   align-content: center;
 }
+
 .skills-wrap {
   flex-wrap: nowrap;
   justify-content: space-around;
